@@ -1,0 +1,85 @@
+/* .h{
+    text-align: center;
+    color: crimson;
+}
+
+p{
+    color: blue;
+}
+
+.p-color{
+    color: green;
+}
+
+.b{
+    color:brown;
+}
+
+.s{
+    color:aqua;
+} */
+
+
+/* Bootstrap styles */
+
+.container{
+    height: 1195px;
+    width: 300px;
+    background-color:aqua;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: lowercase;
+    font-size: small;
+    
+}
+
+.h1{
+    float: left;
+    height: 1195px;
+    width: 320px;
+    background-color:rgb(136, 129, 182);
+    text-align: center;
+   
+}
+
+/* .h10{
+    float: left;
+   
+} */
+
+.h200{
+    height: 200px;
+}
+
+/* .h50{
+    height: 50px;
+} */
+
+.h300{
+    height: 300px;
+    text-align: center;
+}
+
+.h100{
+    height: 100px;
+    text-align: center;  
+}
+
+.h150{
+    height: 150px;
+    text-align: center;
+}
+
+/* .h100{
+    height: 100px;
+    
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    .g{
+        display: none;
+        background-color:aqua;
+    }
+}
+
+
